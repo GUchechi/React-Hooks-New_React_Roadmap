@@ -1,12 +1,14 @@
 import './App.css';
-import UseRef from './components/UseRef';
+import ScreenComponent from './components/ScreenComponent';
+import UseCounter from './components/UseCounter';
 
 
 
 function App() {
   return (
     <div className="App">
-      <UseRef />
+      <UseCounter />
+      <ScreenComponent />
     </div>
   );
 }
